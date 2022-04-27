@@ -1,0 +1,36 @@
+---
+title: "Old Faithful Shiny App Presentation"
+author: "Colleen"
+date: "4/27/2022"
+output: ioslides_presentation
+---
+
+## Old Faithful Data Analysis Report
+
+Old Faithful Data Analysis Report 
+
+Data presented using the Shiny App, displayed in an RMarkdown presentation.
+
+## Application Overview
+
+- Waiting Time Properties can be analyzed using Parameters.
+- Time to next eruption and frequency of eruption are the parameters.
+- This Report enables you to scroll to number of bins to change the histogram.
+
+## Slide with Complete Reporting Appliaction
+
+Click the Below Link for the Application.
+
+https://205colleen.shinyapps.io/Diamond_Presentation/
+
+Click the link below for compiled project files on gitub repo.
+
+https://github.com/205colleen/Old-Faithful-App
+
+## Data Used
+The data used for this application is from the Old Faithful dataset in R. 
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library("ggplot2")
+summary(faithful)
+```
